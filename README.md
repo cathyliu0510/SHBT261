@@ -1,8 +1,11 @@
-1. Dataset Preparation
-2. Methods:
-3. Evaluation Metrics
-4. Ablation Studies
-5. Plots, observation, interpretation
+Run in this order:
+- Step 1: Dataset Preparation (step1_dataset_preparation.ipynb)
+- Step 2: ResNet (step2_resnet.ipynb)
+- Step 3: EfficientNet (step3_efficientnet.ipynb)
+- Step 4: Classical ML (step4_classical_ml.ipynb)
 
-Notebook running order:
-- Run `step1_dataset_preparation.ipynb` first to generate `shared_data.pkl`.
+Each method includes:
+- Evaluation Metrics
+- Ablation Studies
+
+All the plots are saved separately in the repository.
